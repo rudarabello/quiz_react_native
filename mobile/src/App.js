@@ -1,9 +1,17 @@
-import React from 'react';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
 
-import Dashboard from './screens/Dashboard';
-
-const App = () => {
-  return <Dashboard />;
-};
-
-export default App;
+ import React from 'react';
+ import {Quiz} from './screens';
+ 
+ const App = () => {
+   return <Quiz />;
+ };
+ 
+ export default App;
+ 
